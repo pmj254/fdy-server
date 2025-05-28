@@ -1,13 +1,15 @@
 {
-  "name": "flowers_detection_pwa",
+  "name": "fdy-server",
   "version": "1.0.0",
+  "description": "Backend server for flower details and NaverShopping API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0"
+  }
 }
